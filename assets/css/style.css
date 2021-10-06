@@ -29,6 +29,12 @@ a {
 
 }
 
-#menu {
-    float:right;
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 40px;
+}
+
+#menu a:hover {
+    color: darkred;
 }
