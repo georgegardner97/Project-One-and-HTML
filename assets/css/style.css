@@ -1,7 +1,28 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Oxygen&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    border: none;
 }
-nav {
-    color: red;
+
+body {
+    font-family:'Cairo', sans-serif;
+    font-weight: 800;
+    color: darkolivegreen;
+}
+
+h1, h2 {
+    letter-spacing: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo {
+    text-decoration: none;
+    float: left;
+    margin-left: 30px;
+
 }
